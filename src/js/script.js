@@ -51,53 +51,53 @@ let card6Location = document.getElementById('card6Location')
 fetch("https://rickandmortyapi.com/api/character")
     .then(res => res.json())
     .then(data => {
-        card1Name.innerText = data.results[0].name
+        card1Name.innerText = `NAME: ${data.results[0].name}`
         card1Image.src = data.results[0].image
-        card1Status.innerText = data.results[0].status
-        card1Species.innerText = data.results[0].species
-        card1Gender.innerText = data.results[0].gender
-        card1Origin.innerText = data.results[0].origin.name
-        card1Location.innerText = data.results[0].location.name
+        card1Status.innerText = `STATUS :${data.results[0].status}` 
+        card1Species.innerText = `SPECIES: ${data.results[0].species}`
+        card1Gender.innerText = `GENDER: ${data.results[0].gender}`
+        card1Origin.innerText = `ORIGIN: ${data.results[0].origin.name}`
+        card1Location.innerText = `LOCATION: ${data.results[0].location.name}`
          
-        card2Name.innerText = data.results[1].name
+        card2Name.innerText = `NAME: ${data.results[1].name}`
         card2Image.src = data.results[1].image
-        card2Status.innerText = data.results[1].status
-        card2Species.innerText = data.results[1].species
-        card2Gender.innerText = data.results[1].gender
-        card2Origin.innerText = data.results[1].origin.name
-        card2Location.innerText = data.results[1].location.name
+        card2Status.innerText = `STATUS :${data.results[1].status}` 
+        card2Species.innerText = `SPECIES: ${data.results[1].species}`
+        card2Gender.innerText = `GENDER: ${data.results[1].gender}`
+        card2Origin.innerText = `ORIGIN: ${data.results[1].origin.name}`
+        card2Location.innerText = `LOCATION: ${data.results[1].location.name}`
          
-        card3Name.innerText = data.results[2].name
+        card3Name.innerText = `NAME: ${data.results[2].name}`
         card3Image.src = data.results[2].image
-        card3Status.innerText = data.results[2].status
-        card3Species.innerText = data.results[2].species
-        card3Gender.innerText = data.results[2].gender
-        card3Origin.innerText = data.results[2].origin.name
-        card3Location.innerText = data.results[2].location.name
+        card3Status.innerText = `STATUS :${data.results[2].status}` 
+        card3Species.innerText = `SPECIES: ${data.results[2].species}`
+        card3Gender.innerText = `GENDER: ${data.results[2].gender}`
+        card3Origin.innerText = `ORIGIN: ${data.results[2].origin.name}`
+        card3Location.innerText = `LOCATION: ${data.results[2].location.name}`
          
-        card4Name.innerText = data.results[3].name
+        card4Name.innerText = `NAME: ${data.results[3].name}`
         card4Image.src = data.results[3].image
-        card4Status.innerText = data.results[3].status
-        card4Species.innerText = data.results[3].species
-        card4Gender.innerText = data.results[3].gender
-        card4Origin.innerText = data.results[3].origin.name
-        card4Location.innerText = data.results[3].location.name
+        card4Status.innerText = `STATUS :${data.results[3].status}` 
+        card4Species.innerText = `SPECIES: ${data.results[3].species}`
+        card4Gender.innerText = `GENDER: ${data.results[3].gender}`
+        card4Origin.innerText = `ORIGIN: ${data.results[3].origin.name}`
+        card4Location.innerText = `LOCATION: ${data.results[3].location.name}`
          
-        card5Name.innerText = data.results[4].name
+        card5Name.innerText = `NAME: ${data.results[4].name}`
         card5Image.src = data.results[4].image
-        card5Status.innerText = data.results[4].status
-        card5Species.innerText = data.results[4].species
-        card5Gender.innerText = data.results[4].gender
-        card5Origin.innerText = data.results[4].origin.name
-        card5Location.innerText = data.results[4].location.name
+        card5Status.innerText = `STATUS :${data.results[4].status}` 
+        card5Species.innerText = `SPECIES: ${data.results[4].species}`
+        card5Gender.innerText = `GENDER: ${data.results[4].gender}`
+        card5Origin.innerText = `ORIGIN: ${data.results[4].origin.name}`
+        card5Location.innerText = `LOCATION: ${data.results[4].location.name}`
          
-        card6Name.innerText = data.results[5].name
+        card6Name.innerText = `NAME: ${data.results[5].name}`
         card6Image.src = data.results[5].image
-        card6Status.innerText = data.results[5].status
-        card6Species.innerText = data.results[5].species
-        card6Gender.innerText = data.results[5].gender
-        card6Origin.innerText = data.results[5].origin.name
-        card6Location.innerText = data.results[5].location.name
+        card6Status.innerText = `STATUS :${data.results[5].status}` 
+        card6Species.innerText = `SPECIES: ${data.results[5].species}`
+        card6Gender.innerText = `GENDER: ${data.results[5].gender}`
+        card6Origin.innerText = `ORIGIN: ${data.results[5].origin.name}`
+        card6Location.innerText = `LOCATION: ${data.results[5].location.name}`
          
     })
     

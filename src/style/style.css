@@ -1,0 +1,47 @@
+main{
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.line_1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.line_2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    width: 500px;
+    gap: 20px;
+    background-image: url("https://www.shutterstock.com/shutterstock/videos/1053560099/thumb/1.jpg?ip=x480");
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-in-card{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.text-in-card p{
+    font-weight: bold;
+    font-size: 14px;
+}
